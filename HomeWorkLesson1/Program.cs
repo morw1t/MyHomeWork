@@ -7,10 +7,10 @@ namespace HomeWorkLesson1
         static void Main(string[] args)
         {
             Console.WriteLine("Как тебя зовут?");
-            string UserName;
-            UserName = Console.ReadLine();
+            string userName;
+            userName = Console.ReadLine();
             string currentDate = DateTime.Now.Date.ToString();
-            Console.WriteLine("Привет, " + UserName + ", сегодня " + currentDate);
+            Console.WriteLine("Привет, " + userName + ", сегодня " + currentDate);
         }
     }
 }
